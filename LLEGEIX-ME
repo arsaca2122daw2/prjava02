@@ -1,0 +1,32 @@
+APARTAT1:
+
+    git branch branca00
+    git checkout branca00
+    git status
+
+APARTAT5:
+
+    git log main..branca00
+
+APARTAT6:
+
+    - No la veiem perquè estem a la branca main, aquí no s’han pujat els canvis que hem fet abans.
+
+APARTAT7:
+
+    git pull origin main
+    - Si que veiem la linea creada. Perquè els canvis estaven fets a la branca00.
+
+APARTAT10b:
+
+    git merge branca00
+
+APARTAT12:
+
+  git push
+  - Perquè hem fusionat la branca00 amb la main i s’han passat els canvis realitzats.
+
+APARTAT14:
+
+  git push origin branca01
+  - Es troba a 1 commit de diferència.
